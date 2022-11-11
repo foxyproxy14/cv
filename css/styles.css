@@ -1,5 +1,9 @@
 body  {
-  background-color: #f0f0f0;>
+  background-color: #f0f0f0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 976px;
+  text-align: left;
 }
 
 hr {
@@ -8,10 +12,15 @@ hr {
   border-top-width: thick;
   border-top-color: #CCCCCC;
   height: 2px;
-  width: 65%;
+  width: 100%;
+  text-align-last: center;
 }
 img {
-  height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    animation-delay: 2s;
 }
 
 h1 {
@@ -68,4 +77,24 @@ p {
   font-size: 80%;
   letter-spacing: 1.8px;
   word-spacing: .2px
+}
+
+/* unvisited link */
+a:link {
+  color: #a87d47;
+}
+
+/* visited link */
+a:visited {
+  color: #a87d47;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ec3e45;
+}
+
+/* selected link */
+a:active {
+  color: #ec3e45;
 }
